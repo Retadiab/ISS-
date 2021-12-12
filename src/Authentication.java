@@ -21,9 +21,7 @@ public class Authentication {
         clientInfo.userName = userName;
         clientInfo.setPassword(passWord);
         clientInfo.ID = ServerForMultiUsers.IDCounter++;
-
         String result = dataBase.executeQuery(clientInfo, "addUser");
-        System.out.println("......................................................"+result);
         return !result.equals("error");
     }
 
@@ -47,9 +45,9 @@ public class Authentication {
                     break;
                 case 2:
                     output.println("Please enter A username: ");
-                    String userUsername1 = input.nextLine();
+                    String userUsername1 = input.next();
                     output.println("Please enter your password: ");
-                    String userPassword1 = input.nextLine();
+                    String userPassword1 = input.next();
                     readyToGo = signUpUser(clientInfo, userUsername1, userPassword1);
                     break;
             }

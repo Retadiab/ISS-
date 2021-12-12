@@ -58,7 +58,8 @@ public class Server implements Symmetric, Runnable {
                     output.println("Enter Account Description");
                     account.description = input.next();
                     output.println("Enter Account password");
-                    account.setPassword(input.next());
+                    String value = input.next();
+                    account.setPassword(value);
                     output.println("Enter attachment file to your account");
                     account.file = input.next();
                     clientInfo.setAccount(account);

@@ -19,8 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f03c4e-6d44-41f7-894c-beedc9ac1f8c" name="Default Changelist" comment="basel">
+    <list default="true" id="b0f03c4e-6d44-41f7-894c-beedc9ac1f8c" name="Default Changelist" comment="basel2">
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/iss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/src/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/src/logInSignUpProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS-/ISS-/src/signUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/Authentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/DataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +64,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -78,9 +96,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDataBase" />
+      <module name="iss" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServerForMultiUsers" />
+        <item itemvalue="Application.TestDataBase" />
         <item itemvalue="Application.ClientConnector" />
       </list>
     </recent_temporary>
@@ -124,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639334151394</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="basel2">
+      <created>1639334997721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639334997721</updated>
+    </task>
+    <task id="LOCAL-00006" summary="basel2">
+      <created>1639335005277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639335005277</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,9 +180,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="elaaaa" />
     <MESSAGE value="basel" />
-    <option name="LAST_COMMIT_MESSAGE" value="basel" />
+    <MESSAGE value="basel2" />
+    <option name="LAST_COMMIT_MESSAGE" value="basel2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1638884402460">
@@ -173,38 +215,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="423" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1639272726968" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1639334252736">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1639352228792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639334252736" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1639334252736">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639352228792" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1639352228792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1639334252736" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1639334252736">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1639352228792" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1639352228792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1639334252736" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1639334252736">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1639352228792" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1639352228792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1639334252736" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1639331653118">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1639352228792" />
+    <state width="1493" height="242" key="GridCell.Tab.1.bottom" timestamp="1639351950029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639331653118" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1639331653118">
+    <state width="1493" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
+    <state width="1493" height="242" key="GridCell.Tab.1.center" timestamp="1639351950029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1639331653118" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1639331653118">
+    <state width="1493" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
+    <state width="1493" height="242" key="GridCell.Tab.1.left" timestamp="1639351950029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1639331653118" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1639331653118">
+    <state width="1493" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
+    <state width="1493" height="242" key="GridCell.Tab.1.right" timestamp="1639351950029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1639331653118" />
+    <state width="1493" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
     <state x="326" y="0" key="SettingsEditor" timestamp="1639272963757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,44 +268,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Authentication.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ClientConnector.java</url>
           <line>25</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Server.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Server.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Authentication.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Authentication.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Authentication.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Authentication.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

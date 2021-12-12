@@ -19,15 +19,15 @@ public class Query {
                         "`privateKey`,\n" +
                         "`publicKey`)\n" +
                         "VALUES(\n" +
-                        clientInfo.ID + ",\n" +
-                        clientInfo.userName + ",\n" +
-                        clientInfo.getPassword() + ",\n" +
-                        clientInfo.getPrivateKey() + ",\n" +
-                        clientInfo.getPublicKey() + "\n" +
+                        "'"+clientInfo.ID + "',\n" +
+                        "'"+clientInfo.userName + "',\n" +
+                        "'"+clientInfo.getPassword() + "',\n" +
+                        "'"+clientInfo.getPrivateKey() + "',\n" +
+                        "'"+clientInfo.getPublicKey() + "'\n" +
                         ");\n");
 
         queryList.put("login",
-                "select `users`.`password` from `passwordsdb`.`users` where `userName`=" + clientInfo.userName);
+                "select `users`.`password` from `passwordsdb`.`users` where `userName`='"+clientInfo.userName+"'");
 
         queryList.put("addAccount",
                 "INSERT INTO `passwordsdb`.`accounts`\n" +
@@ -54,28 +54,28 @@ public class Query {
                         "WHERE `accounts`.`id`=(\n" +
                         "\t\tselect `users`.`id` \n" +
                         "\t\tfrom `passwordsdb`.`users`\n" +
-                        "\t\twhere `users`.`userName`=" + clientInfo.userName + "\n" +
-                        "\t\t) and `accounts`.`title` =" + clientInfo.getAccount().title);
+                        "\t\twhere `users`.`userName`='" + clientInfo.userName + "'\n" +
+                        "\t\t) and `accounts`.`title` ='" + clientInfo.getAccount().title+"'");
 
         queryList.put("editAccount",
                 "UPDATE `passwordsdb`.`accounts`\n" +
                         "SET\n" +
-                        "`password` = " + clientInfo.getAccount().getPassword() + "\n" +
-                        "`userName` = " + clientInfo.getAccount().userName + "\n" +
-                        "`email` = " + clientInfo.getAccount().getEmail() + "\n" +
-                        "`description` = " + clientInfo.getAccount().description + "\n" +
+                        "`password` = '" + clientInfo.getAccount().getPassword() + "'\n" +
+                        "`userName` = '" + clientInfo.getAccount().userName + "'\n" +
+                        "`email` = '" + clientInfo.getAccount().getEmail() + "'\n" +
+                        "`description` = '" + clientInfo.getAccount().description + "'\n" +
                         "WHERE  `accounts`.`id`=(\n" +
                         "select `users`.`id`\n" +
                         "from `passwordsdb`.`users`\n" +
-                        "where `users`.`userName`=" + clientInfo.userName + "\n" +
-                        ") and `accounts`.`title` =" + clientInfo.getAccount().title);
+                        "where `users`.`userName`='" + clientInfo.userName + "'\n" +
+                        ") and `accounts`.`title` ='" + clientInfo.getAccount().title+"'");
 
         queryList.put("deleteAccount",
                 "DELETE FROM `passwordsdb`.`accounts`\n" +
                         "WHERE `accounts`.`id`=(\n" +
                         "select `users`.`id`\n" +
                         "from `passwordsdb`.`users`\n" +
-                        "where `users`.`userName`= " + clientInfo.userName + "\n" +
-                        ") and `accounts`.`title` = " + clientInfo.getAccount().title);
+                        "where `users`.`userName`= '" + clientInfo.userName + "'\n" +
+                        ") and `accounts`.`title` = '" + clientInfo.getAccount().title+"'");
     }
 }

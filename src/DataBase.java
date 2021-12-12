@@ -1,3 +1,4 @@
+import javax.swing.text.html.parser.Parser;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -24,8 +25,15 @@ public class DataBase {
 
         String result = "error";
         try {
-            resultSet = statement.executeQuery(query.queryList.get(queryName));
-            result = resultSet.toString();
+            if (queryName.equals("addAccount") || queryName.equals("addUser")) {
+                int value = statement.executeUpdate(query.queryList.get(queryName));
+                result = String.valueOf(value);
+            } else {
+                resultSet = statement.executeQuery(query.queryList.get(queryName));
+                while (resultSet.next()) {
+                    result = resultSet.getString(1);
+                }
+            }
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
