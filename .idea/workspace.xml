@@ -19,27 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f03c4e-6d44-41f7-894c-beedc9ac1f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/basel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.27.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServerForMultiUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Symmetric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logInSignUpProcess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/signUp.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b0f03c4e-6d44-41f7-894c-beedc9ac1f8c" name="Default Changelist" comment="elaaaa" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +94,28 @@
       <option name="presentableId" value="Default" />
       <updated>1638879770578</updated>
     </task>
+    <task id="LOCAL-00001" summary="elaaaa">
+      <created>1639333791427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639333791427</updated>
+    </task>
+    <task id="LOCAL-00002" summary="elaaaa">
+      <created>1639333812426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639333812426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="elaaaa">
+      <created>1639333890894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639333890894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +129,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="elaaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="elaaaa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1638884402460">
