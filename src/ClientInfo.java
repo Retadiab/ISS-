@@ -1,8 +1,18 @@
-import java.util.ArrayList;
-
-public class User {
+public class ClientInfo {
     public String userName;
+    private String password;
+    private String privateKey;
+    private String publicKey;
+    private Account account ;
+    public int ID;
 
+    ClientInfo(){
+        userName = "";
+        password = "";
+        privateKey = "";
+        publicKey = "";
+        account = new Account();
+    }
     public String getPassword() {
         return password;
     }
@@ -11,17 +21,13 @@ public class User {
         this.password = password;
     }
 
-    private String password;
-
-    public ArrayList<Account> getAccounts() {
-        return accounts;
+    public Account getAccount() {
+        return account;
     }
 
-    public void setAccounts(ArrayList<Account> accounts) {
-        this.accounts = accounts;
+    public void setAccount(Account account) {
+        this.account = account;
     }
-
-    private ArrayList<Account> accounts = new ArrayList<Account>();
 
     public String getPrivateKey() {
         return privateKey;
@@ -31,8 +37,6 @@ public class User {
         this.privateKey = privateKey;
     }
 
-    private String privateKey;
-
     public String getPublicKey() {
         return publicKey;
     }
@@ -41,11 +45,4 @@ public class User {
         this.publicKey = publicKey;
     }
 
-    private String publicKey;
-
-
-
-
-
 }
-
