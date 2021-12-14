@@ -25,7 +25,7 @@ public class DataBase {
 
         String result = "error";
         try {
-            if (queryName.equals("addAccount") || queryName.equals("addUser")) {
+            if (queryName.equals("addAccount") || queryName.equals("addUser")||queryName.equals("deleteAccount")) {
                 int value = statement.executeUpdate(query.queryList.get(queryName));
                 result = String.valueOf(value);
             } else {

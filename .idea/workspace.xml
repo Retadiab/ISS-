@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f03c4e-6d44-41f7-894c-beedc9ac1f8c" name="Default Changelist" comment="correct the errors" />
+    <list default="true" id="b0f03c4e-6d44-41f7-894c-beedc9ac1f8c" name="Default Changelist" comment="finall">
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/Authentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/ClientConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/ClientConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/iss/Symmetric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/iss/Symmetric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Symmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symmetric.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,10 +62,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +76,7 @@
       <recent name="D:\Projects\Intellij_Projects\git_security_project\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerForMultiUsers">
+  <component name="RunManager" selected="Application.ClientConnector">
     <configuration name="ClientConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClientConnector" />
       <module name="iss" />
@@ -85,11 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="iss" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerForMultiUsers" />
-        <item itemvalue="Application.TestDataBase" />
         <item itemvalue="Application.ClientConnector" />
+        <item itemvalue="Application.ServerForMultiUsers" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.TestDataBase" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639335005277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finall">
+      <created>1639352766229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639352766229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +195,8 @@
     <MESSAGE value="basel" />
     <MESSAGE value="basel2" />
     <MESSAGE value="correct the errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct the errors" />
+    <MESSAGE value="finall" />
+    <option name="LAST_COMMIT_MESSAGE" value="finall" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1638884402460">
@@ -194,50 +223,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1638896189468" />
-    <state x="423" y="167" key="FileChooserDialogImpl" timestamp="1639272726968">
+    <state x="423" y="167" key="FileChooserDialogImpl" timestamp="1639429687161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="423" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1639272726968" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1639352586104">
+    <state x="423" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1639429687161" />
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1639443015713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639352586104" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1639352586104">
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639443015713" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1639443015713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1639352586104" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1639352586104">
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1639443015713" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1639443015713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1639352586104" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1639352586104">
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1639443015713" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1639443015713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1639352586104" />
-    <state width="1493" height="242" key="GridCell.Tab.1.bottom" timestamp="1639351950029">
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1639443015713" />
+    <state width="1493" height="242" key="GridCell.Tab.1.bottom" timestamp="1639438549903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
-    <state width="1493" height="242" key="GridCell.Tab.1.center" timestamp="1639351950029">
+    <state width="1493" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639438549903" />
+    <state width="1493" height="242" key="GridCell.Tab.1.center" timestamp="1639438549903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
-    <state width="1493" height="242" key="GridCell.Tab.1.left" timestamp="1639351950029">
+    <state width="1493" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1639438549903" />
+    <state width="1493" height="242" key="GridCell.Tab.1.left" timestamp="1639438549903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
-    <state width="1493" height="242" key="GridCell.Tab.1.right" timestamp="1639351950029">
+    <state width="1493" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1639438549903" />
+    <state width="1493" height="242" key="GridCell.Tab.1.right" timestamp="1639438549903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1639351950029" />
-    <state x="326" y="0" key="SettingsEditor" timestamp="1639272963757">
+    <state width="1493" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1639438549903" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1639414653565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="326" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1639272963757" />
+    <state x="326" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1639414653565" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1639267127910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1639267127910" />
+    <state x="478" y="0" width="579" height="824" key="find.popup" timestamp="1639424771098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="0" width="579" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1639424771098" />
     <state x="209" y="33" key="new project wizard" timestamp="1639299928846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -246,16 +279,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639247909765" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ClientConnector.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
